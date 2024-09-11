@@ -1,0 +1,48 @@
+
+.header-container{
+  width: 100%;
+  height: 80vh;
+  background-image: url(./assets/Ban.jpg);
+  background-size: cover;
+}
+.card-container{
+  display: grid;
+  grid-template-columns: repeat(4, 300px);
+  grid-gap: 1px 10px; 
+ ;
+}
+.card{
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+}
+.footer{
+  width: 100%;
+  height: 30vh;
+  background-color: rgb(246, 246, 113);
+ 
+}
+.viewcart-container{
+  background-color: rgb(175, 221, 240);
+  color: black;
+}
+.card-body{
+  display: flex;
+  flex-direction: column;
+
+}
+ul li{
+  font-size: x-large;
+  font-weight: 600;
+  margin:0px 20px;
+
+}
+ul li:hover{
+  text-decoration: underline;
+  color:rgb(3, 3, 3); 
+}
+.navbar-brand{
+  font-size: xx-large;
+  font-weight: 800;
+}
